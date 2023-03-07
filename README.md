@@ -1,1 +1,2 @@
-# KTPM_BookStore
+# BookStore
+CNPM-IT03  Đề tài 3
