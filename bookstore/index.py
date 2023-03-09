@@ -89,7 +89,7 @@ def user_register():
             else:
                 err_msg = 'Mật khẩu KHÔNG khớp'
         except Exception as ex:
-            err_msg = "Hệ thống có lỗi: " + str(ex)
+            err_msg = "Tài khoản đã tồn tại "
 
     return render_template('register.html', err_msg=err_msg)
 
